@@ -1,0 +1,50 @@
+[
+  {
+    "Strategy": "zeroshot_raw",
+    "Accuracy": 0.2063333333333333,
+    "BLEU": 0.07372269362057218,
+    "METEOR": 0.2677325272566347,
+    "ROUGE-L": 0.3257419278242247,
+    "NumSamples": 5000,
+    "LLM-Judge": 0.4927,
+    "LLM-Judge-Scored": 5000,
+    "LLM-Judge-ParseErrors": 0,
+    "LLM-Judge-ParseErrorRate": 0.0
+  },
+  {
+    "Strategy": "baseline",
+    "Accuracy": 0.4864666666666666,
+    "BLEU": 0.1399505093886016,
+    "METEOR": 0.35814373589285003,
+    "ROUGE-L": 0.5820301808983275,
+    "NumSamples": 5000,
+    "LLM-Judge": 0.5885,
+    "LLM-Judge-Scored": 5000,
+    "LLM-Judge-ParseErrors": 0,
+    "LLM-Judge-ParseErrorRate": 0.0
+  },
+  {
+    "Strategy": "task_description",
+    "Accuracy": 0.4762666666666666,
+    "BLEU": 0.13474030539124224,
+    "METEOR": 0.34823457085843895,
+    "ROUGE-L": 0.5716014556130793,
+    "NumSamples": 5000,
+    "LLM-Judge": 0.585,
+    "LLM-Judge-Scored": 5000,
+    "LLM-Judge-ParseErrors": 0,
+    "LLM-Judge-ParseErrorRate": 0.0
+  },
+  {
+    "Strategy": "few_shot",
+    "Accuracy": 0.37733333333333335,
+    "BLEU": 0.11489478790464991,
+    "METEOR": 0.3215147162510026,
+    "ROUGE-L": 0.47937192354468716,
+    "NumSamples": 5000,
+    "LLM-Judge": 0.5568,
+    "LLM-Judge-Scored": 5000,
+    "LLM-Judge-ParseErrors": 0,
+    "LLM-Judge-ParseErrorRate": 0.0
+  }
+]
