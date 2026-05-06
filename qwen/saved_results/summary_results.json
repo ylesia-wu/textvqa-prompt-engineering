@@ -1,0 +1,34 @@
+[
+  {
+    "Strategy": "zeroshot_raw",
+    "Accuracy": 0.057,
+    "BLEU": 0.06221596400744127,
+    "METEOR": 0.3751373577761683,
+    "ROUGE-L": 0.2781235273377728,
+    "NumSamples": 5000
+  },
+  {
+    "Strategy": "baseline",
+    "Accuracy": 0.7727333333333333,
+    "BLEU": 0.22500220077637678,
+    "METEOR": 0.5413368037070313,
+    "ROUGE-L": 0.8471697723268735,
+    "NumSamples": 5000
+  },
+  {
+    "Strategy": "task_description",
+    "Accuracy": 0.7533333333333333,
+    "BLEU": 0.21828432870207826,
+    "METEOR": 0.5375465846017474,
+    "ROUGE-L": 0.8365700991101146,
+    "NumSamples": 5000
+  },
+  {
+    "Strategy": "few_shot",
+    "Accuracy": 0.76,
+    "BLEU": 0.2095206136822084,
+    "METEOR": 0.5203922054855592,
+    "ROUGE-L": 0.8349860767337239,
+    "NumSamples": 5000
+  }
+]
