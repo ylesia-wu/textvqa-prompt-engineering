@@ -1,0 +1,19 @@
+\begin{tabular}{lllrr}
+\toprule
+Model & ModelSlug & ErrorType & Count & PercentOfWrong \\
+\midrule
+LLaVA-Phi-3-mini & llava & empty_output & 26 & 0.0096 \\
+LLaVA-Phi-3-mini & llava & metric_mismatch & 321 & 0.1184 \\
+LLaVA-Phi-3-mini & llava & number_mismatch & 198 & 0.0730 \\
+LLaVA-Phi-3-mini & llava & ocr_misread & 1156 & 0.4263 \\
+LLaVA-Phi-3-mini & llava & partial_ocr_or_partial_answer & 435 & 0.1604 \\
+LLaVA-Phi-3-mini & llava & reasoning_or_grounding_failure & 575 & 0.2120 \\
+LLaVA-Phi-3-mini & llava & too_verbose_or_descriptive & 1 & 0.0004 \\
+Qwen2.5-VL-3B & qwen & empty_output & 161 & 0.1220 \\
+Qwen2.5-VL-3B & qwen & metric_mismatch & 388 & 0.2939 \\
+Qwen2.5-VL-3B & qwen & number_mismatch & 55 & 0.0417 \\
+Qwen2.5-VL-3B & qwen & ocr_misread & 359 & 0.2720 \\
+Qwen2.5-VL-3B & qwen & partial_ocr_or_partial_answer & 228 & 0.1727 \\
+Qwen2.5-VL-3B & qwen & reasoning_or_grounding_failure & 129 & 0.0977 \\
+\bottomrule
+\end{tabular}
